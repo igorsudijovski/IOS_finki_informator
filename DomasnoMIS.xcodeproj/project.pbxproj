@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3889FBB1779B433002E9C6F /* PredmetiDetaliController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3889FB91779B433002E9C6F /* PredmetiDetaliController.m */; };
+		A3889FBC1779B433002E9C6F /* PredmetiDetaliController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3889FBA1779B433002E9C6F /* PredmetiDetaliController.xib */; };
+		A3889FC51779E72C002E9C6F /* DodajKomentarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3889FC31779E72C002E9C6F /* DodajKomentarController.m */; };
+		A3889FC61779E72C002E9C6F /* DodajKomentarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3889FC41779E72C002E9C6F /* DodajKomentarController.xib */; };
+		A38AED5E177C64580035928F /* VestiController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AED5C177C64580035928F /* VestiController.m */; };
+		A38AED5F177C64580035928F /* VestiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38AED5D177C64580035928F /* VestiController.xib */; };
+		A38AED6F177C6DDD0035928F /* VestiDetaliController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AED6D177C6DDD0035928F /* VestiDetaliController.m */; };
+		A38AED70177C6DDD0035928F /* VestiDetaliController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38AED6E177C6DDD0035928F /* VestiDetaliController.xib */; };
+		A38AED75177C7C3E0035928F /* OglasnaController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AED73177C7C3E0035928F /* OglasnaController.m */; };
+		A38AED76177C7C3E0035928F /* OglasnaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38AED74177C7C3E0035928F /* OglasnaController.xib */; };
+		A38AED7A177C7E860035928F /* OglasnaDetaliController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AED78177C7E860035928F /* OglasnaDetaliController.m */; };
+		A38AED7B177C7E860035928F /* OglasnaDetaliController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38AED79177C7E860035928F /* OglasnaDetaliController.xib */; };
+		A38AED80177C8ECA0035928F /* finkilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A38AED7F177C8ECA0035928F /* finkilogo.png */; };
+		A38AED83177C92590035928F /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A38AED81177C92590035928F /* twitter.png */; };
+		A38AED86177C93520035928F /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = A38AED85177C93520035928F /* map.png */; };
+		A3DB13B6177B2ED3006F3AD1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DB13B4177B2E9F006F3AD1 /* QuartzCore.framework */; };
+		A3DB13B9177B2EE6006F3AD1 /* ODRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DB13B8177B2EE6006F3AD1 /* ODRefreshControl.m */; };
+		A3DB13BE177B3244006F3AD1 /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DB13BC177B3244006F3AD1 /* MapController.m */; };
+		A3DB13BF177B3244006F3AD1 /* MapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DB13BD177B3244006F3AD1 /* MapController.xib */; };
+		A3DB13C2177B33E4006F3AD1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DB13C0177B33D8006F3AD1 /* MapKit.framework */; };
+		A3DB13C5177B3406006F3AD1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DB13C3177B33FC006F3AD1 /* CoreLocation.framework */; };
+		A3DB13CA177B3CD6006F3AD1 /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DB13C8177B3CD6006F3AD1 /* Twitter.m */; };
+		A3DB13CB177B3CD6006F3AD1 /* Twitter.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DB13C9177B3CD6006F3AD1 /* Twitter.xib */; };
+		A3DB13CE177B3D87006F3AD1 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DB13CC177B3D78006F3AD1 /* Twitter.framework */; };
+		A3F59B2F1775F9D1003767C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F59B2E1775F9D1003767C2 /* UIKit.framework */; };
+		A3F59B311775F9D1003767C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F59B301775F9D1003767C2 /* Foundation.framework */; };
+		A3F59B331775F9D1003767C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F59B321775F9D1003767C2 /* CoreGraphics.framework */; };
+		A3F59B391775F9D1003767C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3F59B371775F9D1003767C2 /* InfoPlist.strings */; };
+		A3F59B3B1775F9D1003767C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F59B3A1775F9D1003767C2 /* main.m */; };
+		A3F59B3F1775F9D1003767C2 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F59B3E1775F9D1003767C2 /* BIDAppDelegate.m */; };
+		A3F59B491775FA45003767C2 /* StudiskiProgramiFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F59B471775FA45003767C2 /* StudiskiProgramiFirstController.m */; };
+		A3F59B4A1775FA45003767C2 /* StudiskiProgramiFirstController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F59B481775FA45003767C2 /* StudiskiProgramiFirstController.xib */; };
+		A3F59B4E177609A0003767C2 /* PredmetiController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F59B4C177609A0003767C2 /* PredmetiController.m */; };
+		A3F59B4F177609A0003767C2 /* PredmetiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F59B4D177609A0003767C2 /* PredmetiController.xib */; };
+		A3F59B5317760B1E003767C2 /* ZadolzitelniPredmetiController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F59B5117760B1E003767C2 /* ZadolzitelniPredmetiController.m */; };
+		A3F59B5417760B1E003767C2 /* ZadolzitelniPredmetiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F59B5217760B1E003767C2 /* ZadolzitelniPredmetiController.xib */; };
+		A3F59B5817760B2D003767C2 /* IzborniPredmetiController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F59B5617760B2D003767C2 /* IzborniPredmetiController.m */; };
+		A3F59B5917760B2D003767C2 /* IzborniPredmetiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F59B5717760B2D003767C2 /* IzborniPredmetiController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3889FB81779B433002E9C6F /* PredmetiDetaliController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredmetiDetaliController.h; sourceTree = "<group>"; };
+		A3889FB91779B433002E9C6F /* PredmetiDetaliController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredmetiDetaliController.m; sourceTree = "<group>"; };
+		A3889FBA1779B433002E9C6F /* PredmetiDetaliController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PredmetiDetaliController.xib; sourceTree = "<group>"; };
+		A3889FC21779E72B002E9C6F /* DodajKomentarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DodajKomentarController.h; sourceTree = "<group>"; };
+		A3889FC31779E72C002E9C6F /* DodajKomentarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DodajKomentarController.m; sourceTree = "<group>"; };
+		A3889FC41779E72C002E9C6F /* DodajKomentarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DodajKomentarController.xib; sourceTree = "<group>"; };
+		A38AED5B177C64580035928F /* VestiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VestiController.h; sourceTree = "<group>"; };
+		A38AED5C177C64580035928F /* VestiController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VestiController.m; sourceTree = "<group>"; };
+		A38AED5D177C64580035928F /* VestiController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VestiController.xib; sourceTree = "<group>"; };
+		A38AED6C177C6DDD0035928F /* VestiDetaliController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VestiDetaliController.h; sourceTree = "<group>"; };
+		A38AED6D177C6DDD0035928F /* VestiDetaliController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VestiDetaliController.m; sourceTree = "<group>"; };
+		A38AED6E177C6DDD0035928F /* VestiDetaliController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VestiDetaliController.xib; sourceTree = "<group>"; };
+		A38AED72177C7C3E0035928F /* OglasnaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OglasnaController.h; sourceTree = "<group>"; };
+		A38AED73177C7C3E0035928F /* OglasnaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OglasnaController.m; sourceTree = "<group>"; };
+		A38AED74177C7C3E0035928F /* OglasnaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OglasnaController.xib; sourceTree = "<group>"; };
+		A38AED77177C7E860035928F /* OglasnaDetaliController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OglasnaDetaliController.h; sourceTree = "<group>"; };
+		A38AED78177C7E860035928F /* OglasnaDetaliController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OglasnaDetaliController.m; sourceTree = "<group>"; };
+		A38AED79177C7E860035928F /* OglasnaDetaliController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OglasnaDetaliController.xib; sourceTree = "<group>"; };
+		A38AED7F177C8ECA0035928F /* finkilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finkilogo.png; sourceTree = "<group>"; };
+		A38AED81177C92590035928F /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		A38AED85177C93520035928F /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		A3DB13B4177B2E9F006F3AD1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A3DB13B7177B2EE6006F3AD1 /* ODRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODRefreshControl.h; sourceTree = "<group>"; };
+		A3DB13B8177B2EE6006F3AD1 /* ODRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODRefreshControl.m; sourceTree = "<group>"; };
+		A3DB13BB177B3244006F3AD1 /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		A3DB13BC177B3244006F3AD1 /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
+		A3DB13BD177B3244006F3AD1 /* MapController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapController.xib; sourceTree = "<group>"; };
+		A3DB13C0177B33D8006F3AD1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A3DB13C3177B33FC006F3AD1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A3DB13C7177B3CD6006F3AD1 /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
+		A3DB13C8177B3CD6006F3AD1 /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
+		A3DB13C9177B3CD6006F3AD1 /* Twitter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Twitter.xib; sourceTree = "<group>"; };
+		A3DB13CC177B3D78006F3AD1 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		A3F59B2A1775F9D1003767C2 /* DomasnoMIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomasnoMIS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F59B2E1775F9D1003767C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3F59B301775F9D1003767C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3F59B321775F9D1003767C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3F59B361775F9D1003767C2 /* DomasnoMIS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DomasnoMIS-Info.plist"; sourceTree = "<group>"; };
+		A3F59B381775F9D1003767C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3F59B3A1775F9D1003767C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3F59B3C1775F9D1003767C2 /* DomasnoMIS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DomasnoMIS-Prefix.pch"; sourceTree = "<group>"; };
+		A3F59B3D1775F9D1003767C2 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		A3F59B3E1775F9D1003767C2 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		A3F59B461775FA45003767C2 /* StudiskiProgramiFirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudiskiProgramiFirstController.h; sourceTree = "<group>"; };
+		A3F59B471775FA45003767C2 /* StudiskiProgramiFirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudiskiProgramiFirstController.m; sourceTree = "<group>"; };
+		A3F59B481775FA45003767C2 /* StudiskiProgramiFirstController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudiskiProgramiFirstController.xib; sourceTree = "<group>"; };
+		A3F59B4B177609A0003767C2 /* PredmetiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredmetiController.h; sourceTree = "<group>"; };
+		A3F59B4C177609A0003767C2 /* PredmetiController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredmetiController.m; sourceTree = "<group>"; };
+		A3F59B4D177609A0003767C2 /* PredmetiController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PredmetiController.xib; sourceTree = "<group>"; };
+		A3F59B5017760B1E003767C2 /* ZadolzitelniPredmetiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZadolzitelniPredmetiController.h; sourceTree = "<group>"; };
+		A3F59B5117760B1E003767C2 /* ZadolzitelniPredmetiController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZadolzitelniPredmetiController.m; sourceTree = "<group>"; };
+		A3F59B5217760B1E003767C2 /* ZadolzitelniPredmetiController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZadolzitelniPredmetiController.xib; sourceTree = "<group>"; };
+		A3F59B5517760B2D003767C2 /* IzborniPredmetiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IzborniPredmetiController.h; sourceTree = "<group>"; };
+		A3F59B5617760B2D003767C2 /* IzborniPredmetiController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IzborniPredmetiController.m; sourceTree = "<group>"; };
+		A3F59B5717760B2D003767C2 /* IzborniPredmetiController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IzborniPredmetiController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F59B271775F9D1003767C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DB13CE177B3D87006F3AD1 /* Twitter.framework in Frameworks */,
+				A3DB13C5177B3406006F3AD1 /* CoreLocation.framework in Frameworks */,
+				A3DB13C2177B33E4006F3AD1 /* MapKit.framework in Frameworks */,
+				A3DB13B6177B2ED3006F3AD1 /* QuartzCore.framework in Frameworks */,
+				A3F59B2F1775F9D1003767C2 /* UIKit.framework in Frameworks */,
+				A3F59B311775F9D1003767C2 /* Foundation.framework in Frameworks */,
+				A3F59B331775F9D1003767C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A388B36C177C6387009B14CF /* Vesti */ = {
+			isa = PBXGroup;
+			children = (
+				A38AED5B177C64580035928F /* VestiController.h */,
+				A38AED5C177C64580035928F /* VestiController.m */,
+				A38AED5D177C64580035928F /* VestiController.xib */,
+				A38AED6C177C6DDD0035928F /* VestiDetaliController.h */,
+				A38AED6D177C6DDD0035928F /* VestiDetaliController.m */,
+				A38AED6E177C6DDD0035928F /* VestiDetaliController.xib */,
+			);
+			name = Vesti;
+			sourceTree = "<group>";
+		};
+		A38AED71177C7AAB0035928F /* Oglasna */ = {
+			isa = PBXGroup;
+			children = (
+				A38AED72177C7C3E0035928F /* OglasnaController.h */,
+				A38AED73177C7C3E0035928F /* OglasnaController.m */,
+				A38AED74177C7C3E0035928F /* OglasnaController.xib */,
+				A38AED77177C7E860035928F /* OglasnaDetaliController.h */,
+				A38AED78177C7E860035928F /* OglasnaDetaliController.m */,
+				A38AED79177C7E860035928F /* OglasnaDetaliController.xib */,
+			);
+			name = Oglasna;
+			sourceTree = "<group>";
+		};
+		A38AED7C177C8B640035928F /* img */ = {
+			isa = PBXGroup;
+			children = (
+				A38AED85177C93520035928F /* map.png */,
+				A38AED81177C92590035928F /* twitter.png */,
+				A38AED7F177C8ECA0035928F /* finkilogo.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		A3DB13B2177B2E16006F3AD1 /* PullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				A3DB13B7177B2EE6006F3AD1 /* ODRefreshControl.h */,
+				A3DB13B8177B2EE6006F3AD1 /* ODRefreshControl.m */,
+			);
+			name = PullToRefresh;
+			sourceTree = "<group>";
+		};
+		A3DB13BA177B321D006F3AD1 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A3DB13BB177B3244006F3AD1 /* MapController.h */,
+				A3DB13BC177B3244006F3AD1 /* MapController.m */,
+				A3DB13BD177B3244006F3AD1 /* MapController.xib */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		A3DB13C6177B3C73006F3AD1 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				A3DB13C7177B3CD6006F3AD1 /* Twitter.h */,
+				A3DB13C8177B3CD6006F3AD1 /* Twitter.m */,
+				A3DB13C9177B3CD6006F3AD1 /* Twitter.xib */,
+			);
+			name = Twitter;
+			sourceTree = "<group>";
+		};
+		A3F59B1F1775F9D1003767C2 = {
+			isa = PBXGroup;
+			children = (
+				A3F59B341775F9D1003767C2 /* DomasnoMIS */,
+				A3F59B2D1775F9D1003767C2 /* Frameworks */,
+				A3F59B2B1775F9D1003767C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F59B2B1775F9D1003767C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F59B2A1775F9D1003767C2 /* DomasnoMIS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F59B2D1775F9D1003767C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3DB13CC177B3D78006F3AD1 /* Twitter.framework */,
+				A3DB13C3177B33FC006F3AD1 /* CoreLocation.framework */,
+				A3DB13C0177B33D8006F3AD1 /* MapKit.framework */,
+				A3DB13B4177B2E9F006F3AD1 /* QuartzCore.framework */,
+				A3F59B2E1775F9D1003767C2 /* UIKit.framework */,
+				A3F59B301775F9D1003767C2 /* Foundation.framework */,
+				A3F59B321775F9D1003767C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3F59B341775F9D1003767C2 /* DomasnoMIS */ = {
+			isa = PBXGroup;
+			children = (
+				A38AED7C177C8B640035928F /* img */,
+				A38AED71177C7AAB0035928F /* Oglasna */,
+				A388B36C177C6387009B14CF /* Vesti */,
+				A3DB13C6177B3C73006F3AD1 /* Twitter */,
+				A3DB13BA177B321D006F3AD1 /* Map */,
+				A3DB13B2177B2E16006F3AD1 /* PullToRefresh */,
+				A3F59B3D1775F9D1003767C2 /* BIDAppDelegate.h */,
+				A3F59B3E1775F9D1003767C2 /* BIDAppDelegate.m */,
+				A3F59B451775FA14003767C2 /* Studiski Programi */,
+				A3F59B351775F9D1003767C2 /* Supporting Files */,
+			);
+			path = DomasnoMIS;
+			sourceTree = "<group>";
+		};
+		A3F59B351775F9D1003767C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3F59B361775F9D1003767C2 /* DomasnoMIS-Info.plist */,
+				A3F59B371775F9D1003767C2 /* InfoPlist.strings */,
+				A3F59B3A1775F9D1003767C2 /* main.m */,
+				A3F59B3C1775F9D1003767C2 /* DomasnoMIS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3F59B451775FA14003767C2 /* Studiski Programi */ = {
+			isa = PBXGroup;
+			children = (
+				A3F59B461775FA45003767C2 /* StudiskiProgramiFirstController.h */,
+				A3F59B471775FA45003767C2 /* StudiskiProgramiFirstController.m */,
+				A3F59B4B177609A0003767C2 /* PredmetiController.h */,
+				A3F59B4C177609A0003767C2 /* PredmetiController.m */,
+				A3F59B4D177609A0003767C2 /* PredmetiController.xib */,
+				A3F59B5017760B1E003767C2 /* ZadolzitelniPredmetiController.h */,
+				A3F59B5517760B2D003767C2 /* IzborniPredmetiController.h */,
+				A3F59B5617760B2D003767C2 /* IzborniPredmetiController.m */,
+				A3F59B5717760B2D003767C2 /* IzborniPredmetiController.xib */,
+				A3F59B5117760B1E003767C2 /* ZadolzitelniPredmetiController.m */,
+				A3F59B5217760B1E003767C2 /* ZadolzitelniPredmetiController.xib */,
+				A3F59B481775FA45003767C2 /* StudiskiProgramiFirstController.xib */,
+				A3889FB81779B433002E9C6F /* PredmetiDetaliController.h */,
+				A3889FB91779B433002E9C6F /* PredmetiDetaliController.m */,
+				A3889FBA1779B433002E9C6F /* PredmetiDetaliController.xib */,
+				A3889FC21779E72B002E9C6F /* DodajKomentarController.h */,
+				A3889FC31779E72C002E9C6F /* DodajKomentarController.m */,
+				A3889FC41779E72C002E9C6F /* DodajKomentarController.xib */,
+			);
+			name = "Studiski Programi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F59B291775F9D1003767C2 /* DomasnoMIS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F59B421775F9D1003767C2 /* Build configuration list for PBXNativeTarget "DomasnoMIS" */;
+			buildPhases = (
+				A3F59B261775F9D1003767C2 /* Sources */,
+				A3F59B271775F9D1003767C2 /* Frameworks */,
+				A3F59B281775F9D1003767C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DomasnoMIS;
+			productName = DomasnoMIS;
+			productReference = A3F59B2A1775F9D1003767C2 /* DomasnoMIS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F59B211775F9D1003767C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = FINKI;
+			};
+			buildConfigurationList = A3F59B241775F9D1003767C2 /* Build configuration list for PBXProject "DomasnoMIS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3F59B1F1775F9D1003767C2;
+			productRefGroup = A3F59B2B1775F9D1003767C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F59B291775F9D1003767C2 /* DomasnoMIS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F59B281775F9D1003767C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F59B391775F9D1003767C2 /* InfoPlist.strings in Resources */,
+				A3F59B4A1775FA45003767C2 /* StudiskiProgramiFirstController.xib in Resources */,
+				A3F59B4F177609A0003767C2 /* PredmetiController.xib in Resources */,
+				A3F59B5417760B1E003767C2 /* ZadolzitelniPredmetiController.xib in Resources */,
+				A3F59B5917760B2D003767C2 /* IzborniPredmetiController.xib in Resources */,
+				A3889FBC1779B433002E9C6F /* PredmetiDetaliController.xib in Resources */,
+				A3889FC61779E72C002E9C6F /* DodajKomentarController.xib in Resources */,
+				A3DB13BF177B3244006F3AD1 /* MapController.xib in Resources */,
+				A3DB13CB177B3CD6006F3AD1 /* Twitter.xib in Resources */,
+				A38AED5F177C64580035928F /* VestiController.xib in Resources */,
+				A38AED70177C6DDD0035928F /* VestiDetaliController.xib in Resources */,
+				A38AED76177C7C3E0035928F /* OglasnaController.xib in Resources */,
+				A38AED7B177C7E860035928F /* OglasnaDetaliController.xib in Resources */,
+				A38AED80177C8ECA0035928F /* finkilogo.png in Resources */,
+				A38AED83177C92590035928F /* twitter.png in Resources */,
+				A38AED86177C93520035928F /* map.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F59B261775F9D1003767C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F59B3B1775F9D1003767C2 /* main.m in Sources */,
+				A3F59B3F1775F9D1003767C2 /* BIDAppDelegate.m in Sources */,
+				A3F59B491775FA45003767C2 /* StudiskiProgramiFirstController.m in Sources */,
+				A3F59B4E177609A0003767C2 /* PredmetiController.m in Sources */,
+				A3F59B5317760B1E003767C2 /* ZadolzitelniPredmetiController.m in Sources */,
+				A3F59B5817760B2D003767C2 /* IzborniPredmetiController.m in Sources */,
+				A3889FBB1779B433002E9C6F /* PredmetiDetaliController.m in Sources */,
+				A3889FC51779E72C002E9C6F /* DodajKomentarController.m in Sources */,
+				A3DB13B9177B2EE6006F3AD1 /* ODRefreshControl.m in Sources */,
+				A3DB13BE177B3244006F3AD1 /* MapController.m in Sources */,
+				A3DB13CA177B3CD6006F3AD1 /* Twitter.m in Sources */,
+				A38AED5E177C64580035928F /* VestiController.m in Sources */,
+				A38AED6F177C6DDD0035928F /* VestiDetaliController.m in Sources */,
+				A38AED75177C7C3E0035928F /* OglasnaController.m in Sources */,
+				A38AED7A177C7E860035928F /* OglasnaDetaliController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3F59B371775F9D1003767C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F59B381775F9D1003767C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3F59B401775F9D1003767C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3F59B411775F9D1003767C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F59B431775F9D1003767C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomasnoMIS/DomasnoMIS-Prefix.pch";
+				INFOPLIST_FILE = "DomasnoMIS/DomasnoMIS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3F59B441775F9D1003767C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomasnoMIS/DomasnoMIS-Prefix.pch";
+				INFOPLIST_FILE = "DomasnoMIS/DomasnoMIS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F59B241775F9D1003767C2 /* Build configuration list for PBXProject "DomasnoMIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F59B401775F9D1003767C2 /* Debug */,
+				A3F59B411775F9D1003767C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F59B421775F9D1003767C2 /* Build configuration list for PBXNativeTarget "DomasnoMIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F59B431775F9D1003767C2 /* Debug */,
+				A3F59B441775F9D1003767C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3F59B211775F9D1003767C2 /* Project object */;
+}
